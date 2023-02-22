@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-zad",
+  "version": "1.0.7",
+  "description": "zad's eslint config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zadzbw/eslint-config-zad.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "zadzbw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zadzbw/eslint-config-zad/issues"
+  },
+  "homepage": "https://github.com/zadzbw/eslint-config-zad#readme",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.22.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-export-all": "^1.2.2",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
